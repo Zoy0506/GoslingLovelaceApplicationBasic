@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dan.goslinglovelaceapplicationbasic.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:text="James Gosling" />
+
+    <ImageButton
+        android:id="@+id/imageButtonjam"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignEnd="@+id/textViewjam"
+        android:layout_alignRight="@+id/textViewjam"
+        android:layout_below="@+id/textViewjam"
+        android:background="@drawable/james"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+       />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:singleLine="false"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp">
+
+
+        <TextView
+            android:id="@+id/textViewjam2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Gosling received a Bachelor of Science from the University of Calgary [4] and his M.A. and Ph.D. from Carnegie Mellon University.[2][5][6] He wrote a version of Emacs called Gosling Emacs (Gosmacs) while working toward his doctorate. He built a multi-processor version of Unix for a 16-way computer system[7] while at Carnegie Mellon University, before joining Sun Microsystems. He also developed several compilers and mail systems there.
+[10] He clarified his position during the Oracle v Google trial over Android: While I have differences with Oracle, in this case, they are on the right. Google totally slimed Sun. We were all really disturbed, even Jonathan Schwartz; he just decided to put on a happy face and tried to turn lemons into lemonade, which annoyed a lot of folks on Sun.[11] However, he approved of the court's ruling that APIs should not be copyrightable.[12]
+
+        In March 2011, Gosling left Oracle to work at Google.[13] Six months later, he followed his colleague Bill Vass and joined a startup called Liquid Robotics.[1] In late 2016, Liquid Robotics was aquired by Boeing.[14] Following the aquisition, Gosling left Liquid Robotics to work at Amazon Web Services as Distinguished Engineer in May 2017.[15]
+
+        He is an adviser at the Scala company Typesafe Inc.,[16] Independent Director at Jelastic,[17] and Strategic Advisor for Eucalyptus[18], and is a board member of DIRTT Environmental Solutions.[19]
+
+        He is known for his love of proving the unknown and has noted that his favorite irrational number is √2. He has a framed picture of the first 1,000 digits of √2 in his office.[20]" />
+
+
+    </ScrollView>
+</RelativeLayout>
