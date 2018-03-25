@@ -34,6 +34,8 @@
         android:layout_height="120dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@android:drawable/edit_text"
         android:layout_marginBottom="14dp">
 
 
@@ -49,7 +51,6 @@
         He is an adviser at the Scala company Typesafe Inc.,[16] Independent Director at Jelastic,[17] and Strategic Advisor for Eucalyptus[18], and is a board member of DIRTT Environmental Solutions.[19]
 
         He is known for his love of proving the unknown and has noted that his favorite irrational number is √2. He has a framed picture of the first 1,000 digits of √2 in his office.[20]" />
-
 
     </ScrollView>
 </RelativeLayout>

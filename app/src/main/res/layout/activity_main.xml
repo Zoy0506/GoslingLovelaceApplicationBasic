@@ -36,7 +36,8 @@
         android:layout_marginBottom="18dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="180dp"
-
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@android:drawable/edit_text"
         android:id="@+id/scrollView2">
 
 
